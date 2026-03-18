@@ -6,12 +6,13 @@ body{
 main{
     display: block;
     margin: auto;
-    width: 50vw;
-    padding: 20px;
+    width: 40vw;
+    padding: 0px;
     height: 600px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
+    margin-top: 50px;
    
 }
 main  h1{
@@ -19,14 +20,18 @@ main  h1{
     font-size: 2.3em;
 }
 main p{
-   font-size: 1.4em;
+   font-size: 1em;
+   padding: 20px;
 }
 #icone{
 width: 100%;
-height: 150px;
+height: 200px;
 object-fit: cover;
+
 }
 img{
-    max-width: 70%;
+    max-width: 650px;
     height: auto;
+ 
+   
 }
