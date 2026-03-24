@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 
-
-@media screen and (min-width: 576px) and (max-width:992px) {
+ /* TELA DE TABLET*/
+@media screen and (max-width: 992px) and (min-width:576px) {
     section#login{
         width: 80vw;
         height: 300px;
@@ -22,7 +22,7 @@
        width: 30%;
        height: 100%;
     }
-    ::selection#login > div#formulario{
+    section#login > div#formulario{
         float: right;
         width: 70%;
     }
